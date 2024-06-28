@@ -1,9 +1,9 @@
-html{
+html {
     color: white;
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
@@ -11,14 +11,14 @@ body{
     background-size: 120% 120%;
 }
 
-.cabecalho{
+.cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 8px;
 }
 
-.cabecalho .logo{
+.cabecalho .logo {
     width: 120px;
     height: 70px;
     border-radius: 70px;
@@ -30,25 +30,25 @@ body{
     transition: 0.2s;
 }
 
-.cabecalho a:hover .logo{
+.cabecalho a:hover .logo {
     color: #9443d8;
     border: 2px solid #9443d8;
 }
 
-.cabecalho .menu li a{
+.cabecalho .menu li a {
     font-size: 20px;
     text-transform: capitalize;
     padding: 10px 20px;
     transition: 0.2s;
 }
 
-.cabecalho .menu li a:hover{
+.cabecalho .menu li a:hover {
     background-color: #9443d8;
     color: white;
-    border-radius: 60px;    
+    border-radius: 60px;
 }
 
-.home{
+.home {
     display: flex;
     min-height: calc(100vh - 125px);
     align-items: center;
@@ -56,33 +56,33 @@ body{
     justify-content: space-between;
 }
 
-.home .informacoes{
+.home .informacoes {
     display: flex;
     flex-direction: column;
     gap: 15px;
     letter-spacing: 2px;
     padding: 0 15px;
-    max-width: 50%;    
+    max-width: 50%;
 }
 
-.home .informacoes h1{
+.home .informacoes h1 {
     font-family: "Raleway", sans-serif;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.home .informacoes p{
+.home .informacoes p {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.home .redes-sociais{
+.home .redes-sociais {
     display: flex;
     gap: 20px;
 }
 
-.home .redes-sociais a i{
+.home .redes-sociais a i {
     border: 1px solid white;
     border-radius: 50%;
     width: 50px;
@@ -93,32 +93,33 @@ body{
     transition: 0.3s;
 }
 
-.home .redes-sociais a i:hover{
+.home .redes-sociais a i:hover {
     color: #9443d8;
     border: 1px solid #9443d8;
     transform: scale(1.2);
 }
 
-.home .container-foto .foto{
+.home .container-foto .foto {
     max-width: 450px;
     border-radius: 50%;
 }
 
-.home .container-foto img{
+.home .container-foto img {
     width: 100%;
-    border-radius: 50%;    
+    border-radius: 50%;
 }
 
-.home .foto.sombra-interna{
-    background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);    
+.home .foto.sombra-interna {
+    background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 }
 
-.jogos{
-     padding: 50px 0;
+.jogos {
+    padding: 50px 0;
 }
-.jogos .titulo{
+
+.jogos .titulo {
     text-align: center;
     padding: 70px 0;
     font-size: 45px;
@@ -126,7 +127,7 @@ body{
     text-transform: uppercase;
 }
 
-.jogos .container-jogos{
+.jogos .container-jogos {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -134,22 +135,22 @@ body{
     justify-content: center;
 }
 
-.jogos .jogo{
+.jogos .jogo {
     max-width: 260px;
     max-height: 500px;
     position: relative;
     display: none;
 }
 
-.jogos .jogo.ativo{
+.jogos .jogo.ativo {
     display: block;
 }
 
-.jogos .jogo img{
+.jogos .jogo img {
     height: 100%;
 }
 
-.jogos .jogo h3{
+.jogos .jogo h3 {
     background-color: #040203;
     width: 100%;
     padding-left: 20px;
@@ -159,7 +160,7 @@ body{
     bottom: 0;
 }
 
-.jogos .jogo .informacoes-jogo{
+.jogos .jogo .informacoes-jogo {
     background-color: #040203;
     position: absolute;
     top: 0;
@@ -171,12 +172,12 @@ body{
     padding: 20px;
 }
 
-.jogos .container-jogos .jogo:hover .informacoes-jogo{
+.jogos .container-jogos .jogo:hover .informacoes-jogo {
     opacity: 0.8;
     background-color: #000;
 }
 
-.btn-mostrar-jogos{
+.btn-mostrar-jogos {
     background: none;
     border: 1px solid white;
     border-radius: 15px;
@@ -192,33 +193,33 @@ body{
     cursor: pointer;
 }
 
-.btn-mostrar-jogos:hover{
+.btn-mostrar-jogos:hover {
     background-color: #9443d8;
-    transition: 0,3s;
+    transition: 0, 3s;
 }
 
-.btn-mostrar-jogos.remover{
+.btn-mostrar-jogos.remover {
     display: none;
 }
 
-.logo img{
+.logo img {
     width: 150px;
 }
 
-.rodape{
+.rodape {
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.rodape-texto{
+.rodape-texto {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: 0 30px;
+    margin: 0 30px 20px 30px;
 }
 
-.lojas{    
+.lojas {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -226,37 +227,39 @@ body{
     margin: 0 200px;
 }
 
-.lojas a{
+.lojas a {
     padding: 10px;
     border: 2px solid white;
     border-radius: 20px;
 }
 
 
-.lojas a:hover{
+.lojas a:hover {
     background-color: black;
-    border:3px solid #9443d8;
-    transition: 0,3s;
+    border: 3px solid #9443d8;
+    transition: 0, 3s;
     transform: scale(1.2);
 }
 
-.fontes{
+.fontes {
     margin-top: 50px;
 }
 
-.sites img{
-    
-width: 150px;
-margin: 20px 0 50px;
+.sites img {
+
+    width: 150px;
+    margin: 20px 0 50px;
 }
 
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
