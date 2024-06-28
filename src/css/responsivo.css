@@ -19,6 +19,28 @@
     }
 }
 
+@media (max-width: 1025px){
+
+    .rodape-texto{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 30px 50px;
+        }
+
+    .lojas{
+        display: none;
+        margin-top: 30px;
+    }
+
+
+    .fontes{
+        display: none;
+    }
+
+       
+}
+
 @media (max-width: 425px){
 
     .home .informacoes h1{
@@ -29,10 +51,5 @@
     }
     .home .container-foto img{
         max-width: 320px;
-    }
-    .jogos{
-        padding: 30px;
-    }
-    
-   
+    }    
 }

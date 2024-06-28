@@ -206,11 +206,19 @@ body{
 }
 
 .rodape{
-    display: flex;
-    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.lojas{
+.rodape-texto{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.lojas{    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -237,6 +245,7 @@ body{
 }
 
 .sites img{
+    
 width: 150px;
 margin: 20px 0 50px;
 }
